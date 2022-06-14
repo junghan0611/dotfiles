@@ -8,7 +8,7 @@
 
 # Add identity to all commits (required for GitHub / GitLab)
 [user]
-	name = John Practicalli
+	name = Junghan Kim
 
 	# Use GitHub no-reply email address to keep real address private
 	email = "******+github-account@users.noreply.github.com"
@@ -19,7 +19,7 @@
 
 ## Identity for using GitHub API
 [github]
-	user = github-accountname
+	user = junghan0611
 
 	# Use `authinfo.gpg` to store tokens for greater security
 	# oauth-token = ghp_verylongtokenwithlotsofrandomlygeneratedcharacters
@@ -37,7 +37,7 @@
 	# Set which editor to use for editing commit messages (when not included with -m)
 	# VISUAL or EDITOR environment variables also set the choice of editor
 	# vi used if not set.  Typical examples are nvim or emacsclient
-	editor = nvim
+	editor = vim
 
 	# file and directory patterns to ignore across all projects
 	excludesfile = ~/.config/git/ignore-global
@@ -84,9 +84,9 @@
 	delete-local-merged = "!git fetch && git branch --merged | egrep -v 'master' | xargs git branch -d"
 
 # Clone short-cuts
-[url "git@github.com:practicalli/"]
+[url "git@github.com:junghan0611/"]
 	# git clone practicalli:repo-name
-	insteadOf = practicalli:
+	insteadOf = junghan0611:
 
 [help]
 	# Automatically change incorrectly typed commands

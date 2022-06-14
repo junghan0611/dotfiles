@@ -47,7 +47,7 @@
 
  ;; Java Sources from Ubuntu package openjdk-17-source
  :java
- {:jdk-source-uri       "file:///usr/lib/jvm/openjdk-17/lib/src.zip" ;;
+ {:jdk-source-uri       "file:///usr/lib/jvm/openjdk-11/lib/src.zip" ;;
   :home-path            nil ;; jdk-source-uri takes precedence
   :download-jdk-source? false}
 
